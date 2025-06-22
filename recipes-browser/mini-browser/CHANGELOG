@@ -1,0 +1,23 @@
+# Changelog
+
+## [1.0.0] - 2025-06-20
+
+### Added
+
+- Added minimal browser that opens a index.html file placed by `recipes-move-dir`
+- The /home/assets/index.html file should be there.
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+
+### TODO
+
+- Add TLS Support
+- Add Native support support inside application for arguments required to run this application (Read README for this issue).

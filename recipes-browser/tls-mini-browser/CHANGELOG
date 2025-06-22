@@ -1,0 +1,26 @@
+# Changelog
+
+## [1.0.0] - 2025-06-22
+
+### Added
+
+- Added minimal browser that ignoring CA certificate of Unauthorized https secure websites.
+- The default URI is `https://google.com`
+- Uses webkit datamanager api to ignore the tls certificates.
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+- Added TLS Support
+
+### Security
+
+### TODO
+
+- Add Native support inside application for hardware accelaration arguments required to run this application (Read README for this issue).
+- Add passing URL as argument in run time, or write a configuration file.
