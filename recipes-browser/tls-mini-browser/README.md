@@ -10,8 +10,8 @@ gcc `pkg-config --cflags gtk+-3.0` `pkg-config --cflags webkit2gtk-4.0` tls-mini
 >
 > `./tls-mini-browser`
 
-
 ---
+
 # Error in finding webkitgtk in pkg-config in st-image-weston
 
 The .bb file uses webkitgtk-4.0, in st-image-weston the available package is webkitgtk-4.1, so use the below bb file to first check the available wenkitgtk version, then use the available pkg-config webkitgtk version in .bb
@@ -112,8 +112,12 @@ do_install() {
 FILES:${PN} = "${bindir}/tls-mini-browser"
 ```
 
+----
+
 If you want to compile locally in host system use below command
 
 ```bash
 gcc `pkg-config --cflags gtk+-3.0` `pkg-config --cflags webkit2gtk-4.1` tls-mini-browser.c `pkg-config --libs gtk+-3.0` `pkg-config --libs webkit2gtk-4.1` -o tls-mini-browser.out
 ```
+
+---
